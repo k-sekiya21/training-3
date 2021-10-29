@@ -161,6 +161,7 @@ header {
   position: relative;
 }
 
+/* 通常時ulを非表示 */
 .gnav li ul {
   position: absolute;
   top: 45px;
@@ -185,6 +186,7 @@ header {
   transition: all 0.3s;
 }
 
+/* ホバー時ビジブル解除 */
 .gnav li:hover ul li {
   visibility: visible;
   opacity: 1;
